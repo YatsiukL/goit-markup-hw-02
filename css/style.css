@@ -69,12 +69,14 @@ a {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-links:hover,
-.contacts-links:focus,
+.contacts-links:focus {
+    color: #404bbf;
+}
+
 .main-button:hover,
 .main-button:focus {
     color: #404bbf;
 }
-
 
 .contacts-items {
     font-family: "Roboto", sans-serif;
@@ -157,7 +159,7 @@ a {
     color: #2e2f42
 }
 
-.team-hero-title {
+.team-hero-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -174,7 +176,7 @@ a {
     text-transform: capitalize;
 }
 
-.portfolio-img {
+.portfolio-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -182,7 +184,7 @@ a {
     color: #2e2f42;
 }
 
-.portfolio-img-title {
+.portfolio-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
