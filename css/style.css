@@ -73,11 +73,6 @@ a {
     color: #404bbf;
 }
 
-.main-button:hover,
-.main-button:focus {
-    color: #404bbf;
-}
-
 .contacts-items {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -116,6 +111,9 @@ a {
     cursor: pointer;
 }
 
+.main-button:hover, .main-button:focus {
+    color: #404bbf;
+}
 .section-title {
     background-color:#F4F4FD
 }
