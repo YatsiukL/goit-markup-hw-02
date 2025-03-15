@@ -1,20 +1,20 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455 ;
-    background: #FFFFFF;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
-ul, ol {
-list-style-type: none;
+ul, 
+ol {
+    list-style-type: none;
 }
 
-a{
-text-decoration: none;
+a {
+    text-decoration: none;
 }
-
 .page-header {
-background: #fff
+    background: #FFFFFF
 }
 
 .logo {
@@ -26,12 +26,18 @@ background: #fff
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
+.logo-part {
+    color: #2e2f42;
+}
 .header-logo {
     margin-right: 76px;
 }
+
 .footer-logo {
     margin-bottom: 16px;
 }
+
 .header-logo .logo-part {
     color: #2e2f42;
 }
@@ -42,11 +48,11 @@ background: #fff
 
 
 .nav-link {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .contacts {
@@ -60,26 +66,28 @@ background: #fff
     color: #434455;
 }
 
+.nav-link:hover,
+.nav-link:focus,
 .contacts-links:hover,
 .contacts-links:focus,
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover {
     color: #404bbf;
 }
+
 
 .contacts-items {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contacts-links {}
+.contacts {
+    font-style: normal;
+}
 
-.list {}
 
 
 .main-section {
@@ -87,7 +95,7 @@ background: #fff
     background: #2e2f42;
 }
 
-.main-title{
+.main-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -97,19 +105,20 @@ background: #fff
 
 .main-button {
     background-color: #4d5ae5;
-    color: #fff
-    border-radius: 4px;
+    color: #fff border-radius: 4px;
 }
 
-.section-title{
+.section-title {
     background-color:
 }
+
 .page-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .text-title {
     font-weight: 400;
     font-size: 16px;
@@ -125,12 +134,13 @@ background: #fff
     text-align: center;
     color: #2e2f42;
 }
+
 .page-footer {
     background-color: #2e2f42;
 }
 
-    
-    
+
+
 .text-footer {
     font-size: 16px;
     line-height: 1.5;
